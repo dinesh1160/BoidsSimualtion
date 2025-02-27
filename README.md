@@ -1,11 +1,19 @@
-##Boids Simulation (C++ & SFML)
+# Boids Simulation Using C++ and SFML
+Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds, and related group motion.
+It follows 3 Simple rules:
+  - separation
+  - alignment
+  - cohesion
 
-Boids is an artificial life program, developed by Craig Reynolds in 1986, which simulates the flocking behaviour of birds, and related group motion
+# Dependencies:
+- c++17 
+- SFML 2.6+
+- Make
 
-##Requirements
+# Run 
+```
+make
+./boids_simulation
 
-C++17 or later
-SFML 2.5+
-Make (for building the project)
-
-##Run
+```
+Press `Esc` to exit the Program.
