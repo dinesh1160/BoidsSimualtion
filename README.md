@@ -5,15 +5,21 @@ It follows 3 Simple rules:
   - alignment
   - cohesion
 
-# Dependencies:
+## Dependencies:
 - c++17 
 - SFML 2.6+
 - Make
 
-# Run 
+## Run 
+Run `make` to produce an executable file called boids_simulation.
 ```
 make
-./boids_simulation
-
 ```
+Then run the simulation using
+```
+./boids_simulation
+```
+
+The boids movement values can be tweaked in the `constants.hpp` file
+
 Press `Esc` to exit the Program.
